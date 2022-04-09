@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    padding: none;
+}
+
+body{
+    background: rgba(241, 237, 237, 0.808);
+    height: 100vh;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+h1{
+    font-family: arial;
+    padding-left: 50px;
+    
+}
+
+#We{
+    font-weight: none;
+}
+#Fit{
+    font-weight: 500;
+    color: #f0b627;
+}
+
+
+ul{
+    display: flex;
+    width: 350px;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+li{
+    display: flex;
+    text-decoration: none;
+
+}
+li:hover{
+    color: #f0b627;
+}
+
+#sign{
+    display: flex;
+    width: 200px;
+    padding-right: 20px;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+#subnav1{
+
+}
+
+#subnav1:hover{
+    color: #f0b627;
+}
+
+#subnav2{
+    display: flex;
+    height: 40px;
+    width: 100px;
+    color: white;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+#subnav2:hover{
+    background: #f0b627;
+    height: 50px;
+    width: 110px;
+    border:  #f0b627;
+}
+/* the section */
+
+ section{
+    display: flex;
+    height: 90%;
+    width: 100%;
+}
+
+#div1{
+    display: flex;
+    height:100%;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+#divon
+
+#div{
+    height: 90%;
+    width: 100%;
+  
+}
+
+#h1{
+    font-family: calibri;
+    color: #f0b627;
+    font-size: 300%;
+}
+
+h3{
+    padding-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 300%;
+
+}
+
+p{
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    padding-left: 50px;
+    margin-top: 40px;
+}
+
+input{
+    height:40px ;
+    width: 300px;
+    border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#inputbutton{
+    height:45px ;
+    width: 200px;
+    color: white;
+    background: black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid black;
+}
+#inputbutton:hover{
+    background: #f0b627;
+    border: #f0b627;
+}
+
+#div2{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+
+}
+
+
+#img{
+    height: 100%;
+    width: 100%;
+}
